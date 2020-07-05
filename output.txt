@@ -1,0 +1,137 @@
+Please set the rotation angle for element1
+0
+Please set the length for element1
+1
+Please set EA for element1
+7000
+Please set Node number for element1
+0
+1
+Please set the rotation angle for element2
+-45
+Please set the length for element2
+1.414
+Please set EA for element2
+7000
+Please set Node number for element2
+0
+2
+Please set the rotation angle for element3
+-135
+Please set the length for element3
+1.414
+Please set EA for element3
+7000
+Please set Node number for element3
+1
+
+3
+Please set the rotation angle for element4
+-90
+Please set the length for element4
+1
+Please set EA for element4
+7000
+Please set Node number for element4
+1
+2
+Please set the rotation angle for element5
+0
+Please set the length for element5
+1
+Please set EA for element5
+7000
+Please set Node number for element5
+3
+2
+The Transformed Stiffness Matrix for element 1
+7000 0 -7000 -0
+0 0 -0 -0
+-7000 -0 7000 0
+-0 -0 0 0
+
+
+The Transformed Stiffness Matrix for element 2
+2475.25 -2475.25 -2475.25 2475.25
+-2475.25 2475.25 2475.25 -2475.25
+-2475.25 2475.25 2475.25 -2475.25
+2475.25 -2475.25 -2475.25 2475.25
+
+
+The Transformed Stiffness Matrix for element 3
+2475.25 2475.25 -2475.25 -2475.25
+2475.25 2475.25 -2475.25 -2475.25
+-2475.25 -2475.25 2475.25 2475.25
+-2475.25 -2475.25 2475.25 2475.25
+
+
+The Transformed Stiffness Matrix for element 4
+2.62458e-029 -4.28626e-013 -2.62458e-029 4.28626e-013
+-4.28626e-013 7000 4.28626e-013 -7000
+-2.62458e-029 4.28626e-013 2.62458e-029 -4.28626e-013
+4.28626e-013 -7000 -4.28626e-013 7000
+
+
+The Transformed Stiffness Matrix for element 5
+7000 0 -7000 -0
+0 0 -0 -0
+-7000 -0 7000 0
+-0 -0 0 0
+
+
+The Global Stiffness Matrix for truss element
+9475.25 -2475.25 -7000 0 -2475.25 2475.25 0 0
+-2475.25 2475.25 0 0 2475.25 -2475.25 0 0
+-7000 0 9475.25 2475.25 -2.62458e-029 4.28626e-013 -2475.25 -2475.25
+0 0 2475.25 9475.25 4.28626e-013 -7000 -2475.25 -2475.25
+-2475.25 2475.25 -2.62458e-029 4.28626e-013 9475.25 -2475.25 -7000 0
+2475.25 -2475.25 4.28626e-013 -7000 -2475.25 9475.25 0 0
+0 0 -2475.25 -2475.25 -7000 0 9475.25 2475.25
+0 0 -2475.25 -2475.25 0 0 2475.25 2475.25
+
+Please set Fx at Node2
+0
+Please set Fy at Node2
+0
+Please set Fx at Node3
+1000
+Please set Fy at Node3
+-1000
+The eliminated linear system is
+9475.25 2475.25 -2.62458e-029 4.28626e-013 0
+0 8828.63 4.28626e-013 -7000 0
+0 0 9475.25 -2475.25 1000
+0 0 0 3278.51 -738.767
+The displacement for the truss elements is
+u1=0mm
+v1=0mm
+u2=0.0466728mm
+v2=-0.178664mm
+u3=0.0466728mm
+v3=-0.225336mm
+u4=0mm
+v4=0mm
+The Reaction Force for the truss elements is
+Fx1=-1000N
+Fy1=673.29N
+Fx2=1.71017e-014N
+Fy2=0N
+Fx3=1000N
+Fy3=-1000N
+Fx4=1.13687e-013N
+Fy4=326.71N
+The strain for element 1 is 4.66728e-005
+The stress for element 1 is 3.2671MPa
+The strain energy for element 1 is 0.00762424N*m
+The strain for element 2 is 0.000136025
+The stress for element 2 is 9.52176MPa
+The strain energy for element 2 is 0.06476N*m
+The strain for element 3 is -6.60053e-005
+The stress for element 3 is -4.62037MPa
+The strain energy for element 3 is 0.0152485N*m
+The strain for element 4 is 4.66728e-005
+The stress for element 4 is 3.2671MPa
+The strain energy for element 4 is 0.00762424N*m
+The strain for element 5 is 4.66728e-005
+The stress for element 5 is 3.2671MPa
+The strain energy for element 5 is 0.00762424N*m
